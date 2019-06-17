@@ -1,0 +1,1 @@
+hugo -b "/pass-blog/" -d "docs"

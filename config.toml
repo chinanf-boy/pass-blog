@@ -1,0 +1,82 @@
+baseurl         = "/"
+theme           = "yinwang"
+languageCode    = "zh-CN"
+title = "杂项博文"
+disqusShortname = ""
+paginate        = 6
+
+# disablePathToLower = true
+
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = false
+pygmentsStyle = "dracula"
+pygmentsOptions = ['linenos']
+
+#SectionPagesMenu = "main"
+
+[params]
+  title       = "只是一样的人"
+  subtitle    = "code > explain > translate  er"
+  copyright   = "© 2018"
+
+  cover       = "img/blog-cover.jpg"
+  description = "本人的杂项笔记与速记，一般就给出方法，不作讨论"
+  metaDescription = "blog with world"
+  googleAnalytics = "UA-128555056-1" 
+  customCSS = []
+  RSSLink = ""
+
+  twitterName = ""
+  fbName = ""
+  githubName = "chinanf-boy"
+
+  logo = "https://avatars2.githubusercontent.com/u/20272484?s=460&v=4"
+  orgName = "yobrave"
+  orgWebsite = "https://www.llever.com/pass-blog"
+  orgDescription = "js go rust book example translate explain code"
+
+
+  author = "yobrave (Issue me)"
+  authorAvatar = "img/ghost-icon.png"
+  authorLocation = "GuangZhou"
+  authorWebsite = "https://chinanf-boy.github.io"
+  authorDescription = "I - explain/translate/code < er "
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+  github = "chinanf-boy/pass-blog/issues"
+  # gitlab = "yobrave"
+  highlight = "atom-one-dark" # default use `github` style
+  langs = ["go"]
+  menus = true
+  githubRepo = "https://github.com/chinanf-boy/pass-blog"
+  editBtn = true
+  backgroundColor = "#fbf6ec"
+  copyCode = true
+  anchorLink = "¶"
+  imageZoom = true
+  labels = true
+  # default load highlight.min.js but some language, Must add by youself
+  # single = false
+  # 单页面的Home 按钮去除
+# "book-check","example",
+
+ignoreFiles = ["\\.html$"]
+# ,"example","react-from-zero","gentle-intro","liaoAliao","rust-ffi-omnibus","rustwasm-book","wasm-bindgen","react-book-list","React-hacknews","old-home","side-content"]
+
+[permalinks]
+  post = "/:year/:month/:day/:title/"
+  
+[[menu.main]]
+  name = "本博客主题"
+  url = "https://github.com/chinanf-boy/gohugo-theme-yinwang"
+
+[[menu.main]]
+  name = "分类"
+  url = "/categories/"
+
+[[menu.main]]
+  name = "网页开发小记"
+  url = "/html-css-list"
